@@ -48,6 +48,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
+    attr_default (0.6.0)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
     builder (3.2.3)
@@ -148,6 +149,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers (~> 0.10.2)
+  attr_default
   bootsnap (>= 1.1.0)
   byebug
   geocoder (~> 1.5, >= 1.5.1)
